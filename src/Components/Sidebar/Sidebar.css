@@ -3,6 +3,7 @@
 	margin-left: 0;
     position: absolute;
     width: 400px;
+    transition: width 0.1s;
     background-color: rgba(38, 35, 36, 1);
     height: 100vh;
     box-shadow: 2px 0px 2px 0px rgba(32,32,32,0.9);

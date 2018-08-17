@@ -23,13 +23,13 @@ const Sidebar=(props)=>{
 			<div className="socialMedia">
 				<ul>
 					<li>
-						<i className="fa fa-instagram fa-2x" aria-hidden="true"></i>
+						<a rel="noopener noreferrer" href="https://www.instagram.com/eyeorcamera" target="_blank"><i className="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
 					</li>
 					<li>
-						<i className="fa fa-facebook fa-2x" aria-hidden="true"></i>
+						<a rel="noopener noreferrer" href="https://www.facebook.com/eyeorcamera" target="_blank"><i className="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
 					</li>
 					<li>
-						<i className="fa fa-twitter fa-2x" aria-hidden="true"></i>
+						<a rel="noopener noreferrer" href="https://www.twitter.com/eyeorcamera" target="_blank"><i className="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
 					</li>
 				</ul>
 			</div>

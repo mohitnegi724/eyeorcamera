@@ -1,0 +1,25 @@
+.AboutContainer{
+	width: 100vw;
+	height: 100vh;
+	background: #200122;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#AboutHeader{
+	padding-top: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	width: 95%;
+	overflow: hidden;
+	height: 300px;
+	box-shadow: 1px 0 1px 0 rgba(32,32,32,.5);
+}
+#AboutHeader img{
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	object-fit: cover;
+}

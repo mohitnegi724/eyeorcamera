@@ -1,17 +1,14 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import './Header.css';
 const Header=(props)=>{
 	return(
 			<div className="Header">
 				<div id="Menu">
-					<img 
-					alt="Menu"
-					src="https://res.cloudinary.com/eyeorcamera/image/upload/v1534442648/menu.png"
-					onClick={props.toggleSidebar}
-					id="MenuIcon"/>
+					<img src="https://res.cloudinary.com/eyeorcamera/image/upload/v1534507012/menu.png" onClick={props.toggleSidebar} id="MenuIcon" alt="Menu"/>
 				</div>
 				<div id="Logo">
-					<p>Eye Or Camera</p>
+					<Link to="/"><p>Eye Or Camera</p></Link>
 				</div>
 			</div>
 		)
