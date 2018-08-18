@@ -4,7 +4,7 @@ const About=()=>{
 	return (
 		<div className="AboutContainer">
 			<div id="AboutHeader">
-				<img src="https://res.cloudinary.com/eyeorcamera/image/upload/v1534498564/Edited.jpg" alt="Header"/>
+				<h3>About Us</h3>
 			</div>
 		</div>
 	)

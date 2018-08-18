@@ -5,7 +5,7 @@ const Header=(props)=>{
 	return(
 			<div className="Header">
 				<div id="Menu">
-					<img src="https://res.cloudinary.com/eyeorcamera/image/upload/v1534507012/menu.png" onClick={props.toggleSidebar} id="MenuIcon" alt="Menu"/>
+					<img src="https://res.cloudinary.com/eyeorcamera/image/upload/v1534574546/Menu.png" onClick={props.toggleSidebar} onClick={()=>{document.querySelector('.Sidebar').classList.add("yo")}} id="MenuIcon" alt="Menu"/>
 				</div>
 				<div id="Logo">
 					<Link to="/"><p>Eye Or Camera</p></Link>

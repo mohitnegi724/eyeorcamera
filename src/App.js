@@ -9,10 +9,11 @@ export default class App extends Component {
 		showSidebar: false
 	}
 	toggleSidebarHandler=()=>{
-		this.setState({showSidebar: true})
+		this.setState({showSidebar: true});
 	}
   HideSideBarHandler=()=>{
-   this.setState({showSidebar: false}) 
+   this.setState({showSidebar: false});
+   document.querySelector('.Sidebar').classList.add("Sidebar");
   }
   render() {
     return (

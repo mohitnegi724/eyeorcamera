@@ -1,5 +1,5 @@
 .AboutContainer{
-	width: 100vw;
+	width: 100%;
 	height: 100vh;
 	background: #200122;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
@@ -7,19 +7,24 @@
 }
 
 #AboutHeader{
-	padding-top: 60px;
 	margin-left: auto;
 	margin-right: auto;
 	overflow: hidden;
-	width: 95%;
+	width: 80%;
 	overflow: hidden;
-	height: 300px;
-	box-shadow: 1px 0 1px 0 rgba(32,32,32,.5);
+	height: 60%;
+	position: relative;
+	top: 10%;
+	text-align: center;
 }
-#AboutHeader img{
-	width: 100%;
-	height: 100%;
-	background-position: center;
-	background-size: cover;
-	object-fit: cover;
+
+#AboutHeader h3{
+	text-shadow: 1px 0 1px 0 rgba(32,32,32,.5);
+	letter-spacing: 2px;
+	font-size:3vw;
+	text-transform: uppercase;
+	color: white;  /* Fallback: assume this color ON TOP of image */
+   background: url(https://res.cloudinary.com/eyeorcamera/image/upload/v1534498564/Edited.jpg) no-repeat;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
 }
